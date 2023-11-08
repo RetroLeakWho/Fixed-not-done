@@ -99,7 +99,7 @@ function ttytPr()
 	TextLabel.Position = UDim2.new(0.401250005, 0, 0.169999987, 0)
 	TextLabel.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
 	TextLabel.Font = Enum.Font.Highway
-	TextLabel.Text = "@acsu123"
+	TextLabel.Text = "@retroleak2"
 	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 	TextLabel.TextScaled = true
 	TextLabel.TextSize = 14.000
@@ -125,7 +125,7 @@ function ttytPr()
 	ImageLabel_2.BackgroundTransparency = 1.000
 	ImageLabel_2.Position = UDim2.new(0.158479184, 0, 0.719192386, 0)
 	ImageLabel_2.Size = UDim2.new(0.143736929, 0, 0.393939584, 0)
-	ImageLabel_2.Image = "rbxassetid://1275974017"
+	ImageLabel_2.Image = "rbxassetid://15300796336"
 
 	tt.Name = "tt"
 	tt.Parent = Frame
@@ -179,7 +179,7 @@ function ttytPr()
 	ImageLabel_4.BackgroundTransparency = 1.000
 	ImageLabel_4.Position = UDim2.new(-0.178874627, 0, -0.0354799405, 0)
 	ImageLabel_4.Size = UDim2.new(0.405411869, 0, 1.03030348, 0)
-	ImageLabel_4.Image = "rbxassetid://7711529444"
+	ImageLabel_4.Image = "rbxassetid://15300796336"
 
 	UICorner_7.CornerRadius = UDim.new(0, 60)
 	UICorner_7.Parent = ImageLabel_4
@@ -756,7 +756,7 @@ local list = {
 	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
 
 	--Tower of Hell
-	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
+	[703124385]="",
 
 	--steve's one piece
 	[741590026]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/SteveOnePiece.lua'))()",
@@ -805,7 +805,7 @@ local listPre = {
 	--Blox Fruit
 	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/BloxFruitPreV3.lua'))()",
 
-	--Pet Simulator X
+	--Pet Simulator 
 	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetSimXFree.lua'))()",
 
 	--Zombie Attack
@@ -830,7 +830,7 @@ local listPre = {
 	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
 
 	--Tower of Hell
-	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
+	[703124385]="",
 
 	--steve's one piece
 	[741590026]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/SteveOnePiece.lua'))()",
@@ -884,7 +884,7 @@ end
 
 if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
 
-local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
+local path = false
 if getgenv().Key then
 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 end
