@@ -1,10 +1,3 @@
-
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-
-_G.HOHO_AD = {
-	[1] = {link="https://gcdnb.pbrd.co/images/AVitm37MSdIY.png", exp=tick()+9999, read = "https://discord.gg/CWvQUcfr25"},
-}
-
 local UserInputService = game:GetService("UserInputService")
 
 local function MakeDraggable(topbarobject, object)
@@ -106,7 +99,7 @@ function ttytPr()
 	TextLabel.Position = UDim2.new(0.401250005, 0, 0.169999987, 0)
 	TextLabel.Size = UDim2.new(0.534722269, 0, 0.310000002, 0)
 	TextLabel.Font = Enum.Font.Highway
-	TextLabel.Text = "@retroleak2"
+	TextLabel.Text = "@acsu123"
 	TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 	TextLabel.TextScaled = true
 	TextLabel.TextSize = 14.000
@@ -763,7 +756,7 @@ local list = {
 	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
 
 	--Tower of Hell
-	[703124385]="",
+	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
 
 	--steve's one piece
 	[741590026]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/SteveOnePiece.lua'))()",
@@ -812,7 +805,7 @@ local listPre = {
 	--Blox Fruit
 	[994732206] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Pre/BloxFruitPreV3.lua'))()",
 
-	--Pet Simulator 
+	--Pet Simulator X
 	[2316994223] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/Free/PetSimXFree.lua'))()",
 
 	--Zombie Attack
@@ -837,7 +830,7 @@ local listPre = {
 	[1318971886]="loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()",
 
 	--Tower of Hell
-	[703124385]="",
+	[703124385]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()",
 
 	--steve's one piece
 	[741590026]="loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/SteveOnePiece.lua'))()",
@@ -891,7 +884,7 @@ end
 
 if _G["HoHo Hub Auto Bounty V3"] or _G["Fumo Blox Fruit - HoHo Hub Kaitun V3"] then return end
 
-local path = false
+local path = "loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/main/ScriptLoad.lua'))()"
 if getgenv().Key then
 	path = "getgenv().Key = '"..getgenv().Key.."'\n"..path
 end
